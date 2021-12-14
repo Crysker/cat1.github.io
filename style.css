@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background: linear-gradient(180deg, #5284a5,rgba(161, 193, 202, 0.836));
+
+}
+.wrapper{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+gap: 12px;
+
+}
+#canvas{
+background-color: rgb(255, 255, 255);
+background-image: url("./assets/background.png");
+width: 1000px;
+height: auto;
+}
+
+.name{
+font-size: 50px;
+
+}
